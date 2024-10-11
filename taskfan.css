@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .web {
+    position: relative;
+    animation: anim 2s linear infinite;
+    transition: all 0.5s;
+} */
+
+.rotate {
+    position: relative;
+}
+
+.fan {
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    margin: 80px;
+    background-color: black;
+    border-radius: 50%;
+    
+
+}
+
+.test1 {
+    position: absolute;
+    top: 55px;
+    border-radius: 0 30px 30px 0;
+    left: 140px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+}
+
+.test2 {
+    position: absolute;
+    top: 50px;
+    border-radius: 30px 0px 0 30px;
+    right: 140px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+}
+
+
+
+.test3 {
+    position: absolute;
+bottom: 140px;
+    left: 50px;
+    width: 50px;
+    height: 200px;
+    background-color: black;
+    border-radius: 30px 30px 0 0;
+}
+
+.test4 {
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    width: 50px;
+    height: 200px;
+    background-color: black;
+    border-radius: 0 0 30px 30px;
+}
+
+.fan:hover {
+    transform: rotate(360deg);
+    transition: 3s linear;
+}
+
+
